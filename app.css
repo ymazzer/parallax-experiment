@@ -12,6 +12,36 @@ html, body {
     width: 100%;
     height: 100%;
     background-image: url("http://lorempixel.com/1000/500/");
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    position: relative;
 }
+
+.wrap section.venise {
+    background-image: url("img/IMAG0295.jpg");
+    
+}
+
+.wrap section.stmichel {
+    background-image: url("img/P1010128.JPG");
+    
+}
+
+.wrap section .text {
+    background-color: rgba(255, 255, 255, 0.6);
+    /*margin-top: 60%;*/
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+    position: absolute;
+}
+
+/*.wrap section.parallax {*/
+/*    background: none;*/
+/*}*/
+
+/*.wrap section.parallax img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/

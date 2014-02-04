@@ -1,5 +1,5 @@
 
-angular.module('app', ['duScroll']).
+angular.module('app', ['duScroll', 'angular-parallax']).
   controller('scrollCtrl', function($scope, scroller){
     $scope.toTheTop = function() {
       scroller.scrollTo(0,0, 5000);
