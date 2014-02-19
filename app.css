@@ -3,6 +3,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    padding-top: 45px;
+}
+
 .wrap {
     width: 100%;
     height: 100%;
@@ -26,6 +30,19 @@ html, body {
 .wrap section.stmichel {
     background-image: url("img/P1010128.JPG");
     
+}
+
+.wrap section.carnoux1 {
+    background-image: url("img/IMG_0027.JPG");
+}
+
+
+.wrap section.carnoux2 {
+    background-image: url("img/IMG_0072.JPG");
+}
+
+.wrap section.mouette {
+    background-image: url("img/P1020254.JPG");
 }
 
 .wrap section .text {
