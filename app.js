@@ -1,6 +1,12 @@
 
-angular.module('app', ['duScroll', 'angular-parallax']).
-  controller('scrollCtrl', function($scope, scroller){
+angular.module('app', ['duScroll', 'angular-parallax', 'pascalprecht.translate', 'wording'])
+    .controller('appCtrl', function($scope, $translate) {
+        $scope.changeLanguage = function(lang) {
+            $translate.use(lang);
+            moment.use(lang);
+        }
+    })
+    .controller('scrollCtrl', function($scope, scroller){
     $scope.toTheTop = function() {
       scroller.scrollTo(0,0, 5000);
     }
